@@ -1,4 +1,4 @@
-# blog/viws.py
+# blog/views.py
 from django.shortcuts import get_object_or_404, redirect
 from django.utils import timezone
 from blog.models import Post, Category, Comment, User
